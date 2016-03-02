@@ -1,0 +1,27 @@
+/* line 1, one.scss */
+.analysis {
+  display: none;
+}
+
+.analysis {
+   display: none;
+}
+
+/* line 2, two.scss */
+.analysisStage .analysis {
+  display: block;
+}
+/* line 6, two.scss */
+.analysisStage .hide {
+  display: none;
+}
+
+.analysisStage {
+   .analysis {
+      display: block;
+   }
+
+   .hide {
+      display: none;
+   }
+}
